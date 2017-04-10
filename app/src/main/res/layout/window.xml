@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+
+    <ImageButton
+        android:id="@+id/button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_bg" />
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/controls"
+        android:layout_width="200dp"
+        android:layout_height="@dimen/menu_height"
+        android:background="@drawable/controls_bg"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:visibility="visible">
+
+
+        <!--<com.suke.widget.SwitchButton-->
+        <!--android:id="@+id/app"-->
+        <!--android:layout_width="wrap_content"-->
+        app:sb_button_color="@color/red"
+        <!--app:sb_checked="true"-->
+        <!--android:layout_height="wrap_content"/>-->
+
+
+        <com.suke.widget.SwitchButton
+            android:id="@+id/money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:sb_button_color="#f82afc"
+            app:sb_checked_color="#5cfd82" />
+
+        <com.suke.widget.SwitchButton
+            android:id="@+id/answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:sb_button_color="#ff0c20"
+            app:sb_checked_color="#5cfd82" />
+
+
+        <!--<com.suke.widget.SwitchButton-->
+        <!--android:id="@+id/one"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--app:sb_button_color="@color/yellow"-->
+        <!--android:layout_height="wrap_content"/>-->
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
