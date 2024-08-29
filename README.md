@@ -1,7 +1,7 @@
 
 ## 0. 最终效果
 
-![demo](https://github.com/kompasim/android-wechat-tool/raw/master/demo.png)
+![demo](https://github.com/Atypicalim/android-wechat-tool/raw/master/demo.png)
 
 
 ## 1. Accessibility介绍
@@ -258,10 +258,4 @@ accessibilityNodeInfo.performAction(AccessibilityNodeInfo.ACTION_PASTE);
 
 ## 13. 其他
 
-[抢红包程序介绍](https://kompasim.github.io/2017/04/10/android-wechat-rob/)
-
 [原文：Hensen_的博客](http://img.blog.csdn.net/20161121130452281)
-
-[源码；Github仓库](https://github.com/kompasim/android-wechat-tool)
-
-
